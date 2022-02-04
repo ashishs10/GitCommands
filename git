@@ -31,4 +31,12 @@ git stash pop
 -> clear stash
 git stash clear
 
- 
+-> connecting local repository to github
+git remote add origin <URL> 
+
+-> to see all the connected github repository
+git remote -v
+
+-> Sharing the changes on GitHub Repo
+git push origin Master
+
