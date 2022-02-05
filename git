@@ -40,3 +40,7 @@ git remote -v
 -> Sharing the changes on GitHub Repo
 git push origin Master
 
+-> TROUBLESHOOT(Unable to push commit to remote)
+git pull --rebase origin master
+
+
