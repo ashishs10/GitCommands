@@ -1,0 +1,46 @@
+-> Check git version
+git --version
+
+-> Initialize Git Repository Local
+git init
+
+-> Staging the first change
+git add <file name>
+
+-> Staging everything in the folder for commit
+git add .
+
+-> Unstaging 
+git restore --staged <file name>
+
+-> Commiting the change after stage
+git commit -m "<message>"
+
+-> History of the project
+git log
+
+->Removing commit - copy commit code from git log and reset everything above the commit
+git reset <commit code>
+
+-> Stashing or sending backstage for later commit/get file on stage first
+git stash
+
+-> Bring back unstaged
+git stash pop
+
+-> clear stash
+git stash clear
+
+-> connecting local repository to github
+git remote add origin <URL> 
+
+-> to see all the connected github repository
+git remote -v
+
+-> Sharing the changes on GitHub Repo
+git push origin Master
+
+-> TROUBLESHOOT(Unable to push commit to remote)
+git pull --rebase origin master
+
+
